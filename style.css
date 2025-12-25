@@ -45,7 +45,7 @@ body {
     text-transform: capitalize;
     text-align: center;
     font-size: 40px;
-    color: #E9762B;
+    color: #EC3100;
     width: 300px;
     padding: 30px;
     margin: 0;
@@ -62,12 +62,12 @@ body {
 }
 
 .snakes-logo{
-    width: 250px;
+    width: 300px;
     height: auto;
     margin: 20px;
     position: absolute;
     top: 40%;
-    left: 39%;
+    left: 37%;
 }
 
 .scores{
@@ -92,6 +92,8 @@ body {
 }
 
 .food{
-    background-color: #dedede;
-    border: 5px solid #999;
+    background-color: #EC3100;
+    border: 2px solid #999;
+    animation: blink 0.7s steps(1, start) infinite;
+    border-radius: 50%;
 }
