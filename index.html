@@ -5,30 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snake Game</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <section>
-            <div class="infos">
-                 <div class="info">
-                    <h3>High Score: 
-                        <span id="high-score">0</span>
-                    </h3>
-                 </div>
-                 <div class="info">
-                    <h3>Score: 
-                        <span id="score">0</span>
-                    </h3>
-                 </div>
-                 <div class="info">
-                    <h3>Time: 
-                        <span id="time">00:00</span>
-                    </h3>
-                 </div>
+    <div>
+        <div class="scores">
+            <h1 id="score">000</h1>
+            <h1 id="highScore">000</h1>
+        </div>    
+        <div class="game-border-1">
+            <div class="game-border-2">
+                <div class="game-border-3">
+                    <div id="game-board"></div>
+                </div>
             </div>
-            <div class="board"></div>
-        </section>
-    </main>
-    <script src="script.js"></script>
+        </div>
+            
+        
+    </div>
+    <h1 id="instruction-text">Press spacebar to start</h1>
+    <img class="snakes-logo" src="snakesLogo.png" alt="snake-logo">
+    <script src="script.js" defer></script>
 </body>
 </html>
